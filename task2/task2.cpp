@@ -28,7 +28,7 @@ int main() {
 //     }
 // //-------------------------------------------
 //
-// // مفهمتش انت طالب ايه
+//
 //     // 2 teams of 3.
 //     ll team,prog ,Football,chess;
 //     cout<<"Enter the number of programers: ";

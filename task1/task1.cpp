@@ -32,7 +32,6 @@ string BinAdd(string a, string b) {
     int num1 = stoi(a, nullptr, 2);
     int num2 = stoi(b, nullptr, 2);
     int sum = num1 + num2;
-    //مش من عندي السطر ده هه
     return bitset<32>(sum).to_string().substr(bitset<32>(sum).to_string().find('1'));
 }
 
@@ -61,7 +60,6 @@ void highest_3_Ele(vector<ll> &v) {
 }
 
 int main() {
-    //شيل الكومينت من علي اللي عايز تجربه عشان انا كسلت اعمل كل واحد لوحده
 
     //          // 1 Swap Two Numbers Using a Function.
     //          ll num1,num2;
