@@ -95,11 +95,11 @@ int main() {
     //              cout<<"Arrays are not equal";
     //          }
     // //-------------------------------------------
-
-    // 4 Add 2 Binary Strings.
-    string string1,string2;
-    cin>>string1>>string2;
-    cout<<BinAdd(string1,string2);
+    //
+    // // 4 Add 2 Binary Strings.
+    // string string1,string2;
+    // cin>>string1>>string2;
+    // cout<<BinAdd(string1,string2);
     // //-------------------------------------------
     //
     //          // 5 Search an Element in an Array
