@@ -19,7 +19,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Torpedo" targetName="Torpedo" />
+      <config projectName="Torpedo" targetName="Task2" />
+      <config projectName="Torpedo" targetName="Task1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -29,9 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9d0e34-49fc-4227-971e-0b6b7c4ef2e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Torpedo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1/task1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/task2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectApplicationVersion">
@@ -61,6 +69,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake Application.Task1.executor": "Run",
+    "CMake Application.Task2.executor": "Run",
     "CMake Application.Torpedo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -71,7 +81,7 @@
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "task1",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,17 +93,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\New folder (3)\Torpedo\task1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Task2">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Torpedo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Torpedo" TARGET_NAME="Torpedo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Torpedo" RUN_TARGET_NAME="Torpedo">
+    <configuration name="Task1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Torpedo" TARGET_NAME="Task1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Torpedo" RUN_TARGET_NAME="Task1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Torpedo" TARGET_NAME="Task2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Torpedo" RUN_TARGET_NAME="Task2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Task1" />
+      <item itemvalue="CMake Application.Task2" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753898558318</updated>
-      <workItem from="1753898559579" duration="5468000" />
+      <workItem from="1753898559579" duration="12770000" />
     </task>
     <servers />
   </component>
