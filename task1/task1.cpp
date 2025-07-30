@@ -32,8 +32,10 @@ string BinAdd(string a, string b) {
     int num1 = stoi(a, nullptr, 2);
     int num2 = stoi(b, nullptr, 2);
     int sum = num1 + num2;
-    return bitset<32>(sum).to_string().substr(bitset<32>(sum).to_string().find('1'));
+    string s = bitset<32>(sum).to_string();
+    return s.substr(s.find('1'));
 }
+
 
 ll binarySearch(vector<ll> &v, ll ele) {
     ll low = 0;
@@ -93,11 +95,11 @@ int main() {
     //              cout<<"Arrays are not equal";
     //          }
     // //-------------------------------------------
-    //
-    //          // 4 Add 2 Binary Strings.
-    //          string string1,string2;
-    //          cin>>string1>>string2;
-    //          cout<<BinAdd(string1,string2);
+
+    // 4 Add 2 Binary Strings.
+    string string1,string2;
+    cin>>string1>>string2;
+    cout<<BinAdd(string1,string2);
     // //-------------------------------------------
     //
     //          // 5 Search an Element in an Array
